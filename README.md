@@ -122,11 +122,6 @@ This command:
 - `sensor importance plots`
 - `early-warning summary report`
 
-## Highlights for internship reviewers
-
-- The project is not only about model accuracy; it also addresses explainability and how a maintenance team would consume the output.
-- The pipeline is structured as reusable Python modules rather than a single notebook.
-- The README visuals are generated from the actual run, so the story stays tied to reproducible code.
 
 ## Dataset
 
