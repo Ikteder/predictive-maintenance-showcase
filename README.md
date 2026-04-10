@@ -9,9 +9,9 @@
 
 This project builds an early-warning system for industrial equipment using multivariate sensor streams from the NASA C-MAPSS turbofan degradation benchmark. It combines unsupervised anomaly detection with supervised failure-risk prediction, adds interpretability through sensor ranking and feature importance, and finishes with an operations-friendly reporting layer.
 
-## Why this project is a strong portfolio piece
+## Why do this project at all?
 
-- Works on real sequential sensor data instead of toy tabular data.
+- To show Work on real sequential sensor data instead of toy tabular data.
 - Compares anomaly detection and predictive maintenance approaches in the same workflow.
 - Uses temporal feature engineering, multivariate analysis, model comparison, and explainability.
 - Produces visual artifacts and reports that feel closer to production analytics than a notebook-only experiment.
