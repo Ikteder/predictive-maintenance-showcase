@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "predictive-maintenance-showcase"
+version = "0.1.0"
+description = "Showcase project for predictive maintenance and anomaly detection on NASA turbofan sensor data."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "jupyter",
+  "matplotlib",
+  "nbformat",
+  "numpy",
+  "pandas",
+  "requests",
+  "scikit-learn",
+  "scipy",
+  "seaborn",
+  "xgboost",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
